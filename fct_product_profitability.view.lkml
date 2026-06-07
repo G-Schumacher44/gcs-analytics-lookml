@@ -1,5 +1,5 @@
 view: fct_product_profitability {
-  sql_table_name: `gcs-automation-project.gold_marts.fct_product_profitability` ;;
+  sql_table_name: `acme-analytics.gold_marts.fct_product_profitability` ;;
 
   dimension: product_id {
     primary_key: yes

@@ -14,9 +14,9 @@ view: pdt_customer_ltv {
            customer_segment,
            predicted_clv_bucket,
            actual_clv_bucket
-         FROM `gcs-automation-project.silver.int_customer_lifetime_value`
-         WHERE ingest_dt = (SELECT MAX(ingest_dt) FROM `gcs-automation-project.silver.int_customer_lifetime_value`) ;;
-    sql_trigger_value: SELECT DATE(MAX(ingest_dt)) FROM `gcs-automation-project.silver.int_customer_lifetime_value` ;;
+         FROM `acme-analytics.silver.int_customer_lifetime_value`
+         WHERE ingest_dt = (SELECT MAX(ingest_dt) FROM `acme-analytics.silver.int_customer_lifetime_value`) ;;
+    sql_trigger_value: SELECT DATE(MAX(ingest_dt)) FROM `acme-analytics.silver.int_customer_lifetime_value` ;;
   }
 
   dimension: customer_id {

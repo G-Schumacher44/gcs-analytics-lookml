@@ -1,5 +1,5 @@
 view: fct_shipping_analysis {
-  sql_table_name: `gcs-automation-project.gold_marts.fct_shipping_analysis` ;;
+  sql_table_name: `acme-analytics.gold_marts.fct_shipping_analysis` ;;
 
   dimension_group: order {
     type: time

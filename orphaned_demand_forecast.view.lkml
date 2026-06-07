@@ -1,5 +1,5 @@
 view: orphaned_demand_forecast {
-  sql_table_name: `gcs-automation-project.gold_marts.fct_demand_forecast` ;;
+  sql_table_name: `acme-analytics.gold_marts.fct_demand_forecast` ;;
 
   # Built in anticipation of a demand-forecasting model (Q1 2025 initiative).
   # The BQ table was never created — the forecasting project was descoped.

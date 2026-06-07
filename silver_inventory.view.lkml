@@ -1,5 +1,5 @@
 view: silver_inventory {
-  sql_table_name: `gcs-automation-project.silver.int_inventory_risk` ;;
+  sql_table_name: `acme-analytics.silver.int_inventory_risk` ;;
 
   # Legacy view — pre-dates gold_marts. Used by gcs_legacy.legacy_inventory explore
   # which has had zero queries since gcs_analytics.sales_performance launched.

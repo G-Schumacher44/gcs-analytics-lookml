@@ -12,8 +12,8 @@ view: pdt_retention_signals {
            total_orders,
            marketing_opt_in,
            days_since_last_order
-         FROM `gcs-automation-project.silver.int_customer_retention_signals`
-         WHERE snapshot_dt = (SELECT MAX(snapshot_dt) FROM `gcs-automation-project.silver.int_customer_retention_signals`) ;;
+         FROM `acme-analytics.silver.int_customer_retention_signals`
+         WHERE snapshot_dt = (SELECT MAX(snapshot_dt) FROM `acme-analytics.silver.int_customer_retention_signals`) ;;
     sql_trigger_value: SELECT CURRENT_DATE() ;;
   }
 

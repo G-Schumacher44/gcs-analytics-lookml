@@ -1,5 +1,5 @@
 view: fct_daily_dashboard {
-  sql_table_name: `gcs-automation-project.gold_marts.fct_daily_dashboard` ;;
+  sql_table_name: `acme-analytics.gold_marts.fct_daily_dashboard` ;;
 
   dimension_group: metric {
     type: time

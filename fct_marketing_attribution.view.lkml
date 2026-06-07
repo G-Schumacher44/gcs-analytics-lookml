@@ -1,5 +1,5 @@
 view: fct_marketing_attribution {
-  sql_table_name: `gcs-automation-project.gold_marts.fct_marketing_attribution` ;;
+  sql_table_name: `acme-analytics.gold_marts.fct_marketing_attribution` ;;
 
   dimension_group: metric {
     type: time

@@ -1,5 +1,5 @@
 view: fct_finance_revenue {
-  sql_table_name: `gcs-automation-project.gold_marts.fct_finance_revenue` ;;
+  sql_table_name: `acme-analytics.gold_marts.fct_finance_revenue` ;;
 
   dimension_group: order {
     type: time

@@ -1,5 +1,5 @@
 view: silver_orders {
-  sql_table_name: `gcs-automation-project.silver.int_attributed_purchases` ;;
+  sql_table_name: `acme-analytics.silver.int_attributed_purchases` ;;
 
   # Legacy view — pre-dates gold_marts. Used by gcs_legacy.legacy_orders explore
   # which has had zero queries since gcs_analytics.finance launched in Q2 2025.
